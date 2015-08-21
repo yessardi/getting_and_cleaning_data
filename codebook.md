@@ -23,14 +23,13 @@ Below are the 88 features included in the final tidy data file "tidyaggHAR.txt" 
 
 - Attribute 1 Subject denote the persons(1-30) who undertook different activities
 - Attribute 2 Activity denote the different activities the subjects undertook namely WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
-- Attributes 3-88 in this dataset are the Mean and Standard Deviation measures of linear acceleration(measured by accelerometer) and radial acceleration(measured by gyroscope). 
-	- XYZ is used to denote 3-axial signals in the X, Y and Z directions.
+- Attributes 3-88 in this dataset are the Mean and Standard Deviation measures of linear acceleration(measured by accelerometer) and radial acceleration(measured by gyroscope)
+	- XYZ is used to denote 3-axial signals in the X, Y and Z directions
 	- Time domain signals all start with "Time." prefix
 	- Frequency domain signal variables all start with "Frequency." prefix
 	- Jerk signals from body linear acceleration and angular velocity derived in time are denoted by "Jerk."
 	- Mag from raw data has been expanded as "Magnitude." and "Acc" as "Acceleration."
 	- Mean and SD variables have been aggregated subject-wise and activity-wise 
-
 
 - (1) Subject
 - (2) Activity
