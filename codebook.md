@@ -31,15 +31,15 @@ Below are the 88 features included in the final tidy data file "tidyaggHAR.txt" 
 	- Mag from raw data has been expanded as "Magnitude." and "Acc" as "Acceleration."
 	- Mean and SD variables have been aggregated subject-wise and activity-wise 
 
-1 Subject
-2 Activity
-3 Time.Body.Acceleration.MeanX
-4 Time.Body.Acceleration.MeanY
-5 Time.Body.Acceleration.MeanZ
-6 Time.Body.Acceleration.SDX
-7 Time.Body.Acceleration.SDY
-8 Time.Body.Acceleration.SDZ
-9 Time.Gravity.Acceleration.MeanX
+- (1) Subject
+- (2) Activity
+- (3) Time.Body.Acceleration.MeanX
+- (4) Time.Body.Acceleration.MeanY
+- (5) Time.Body.Acceleration.MeanZ
+- (6) Time.Body.Acceleration.SDX
+- (7) Time.Body.Acceleration.SDY
+- (8) Time.Body.Acceleration.SDZ
+- (9) Time.Gravity.Acceleration.MeanX
 10 Time.Gravity.Acceleration.MeanY
 11 Time.Gravity.Acceleration.MeanZ
 12 Time.Gravity.Acceleration.SDX
