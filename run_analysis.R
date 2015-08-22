@@ -1,3 +1,10 @@
+## Download the zipped dataset from Url provided
+fileUrl = "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip "
+download.file(fileUrl, destfile = "./HAR.zip",mode = "wb")
+
+## Unzip the files into "UCI HAR Dataset"
+unzip("HAR.zip",exdir = ".")
+
 ## Read below TRAIN files from "UCI HAR Dataset/train" under working directory
 xtrainHAR = read.table("./UCI HAR Dataset/train/X_train.txt")
 ytrainHAR = read.table("./UCI HAR Dataset/train/y_train.txt")
