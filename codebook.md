@@ -19,18 +19,19 @@ Also "allHAR" was merged with "activityHAR" to fetch descriptive activity names 
 
 ## Code Book
 
-Below are the 88 features included in the final tidy data file "tidyaggHAR.txt" and a brief overview about them
+### Below is a brief overview about the 88 final attributes in the final tidy data file "tidyaggHAR.txt" 
 
 - Attribute 1 Subject denote the persons(1-30) who undertook different activities
 - Attribute 2 Activity denote the different activities the subjects undertook namely WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
-- Attributes 3-88 in this dataset are the Mean and Standard Deviation measures of linear acceleration(measured by accelerometer) and radial acceleration(measured by gyroscope)
-	- XYZ is used to denote 3-axial signals in the X, Y and Z directions
-	- Time domain signals all start with "time" prefix
-	- Frequency domain signal variables all start with "frequency" prefix
-	- Jerk signals from body linear acceleration and angular velocity derived in time are denoted by "jerk"
-	- Mag from raw data has been expanded as "magnitude" and "acc" as "acceleration"
-	- Mean and Standard Deviation variables have been aggregated subject-wise and activity-wise 
+- Attributes 3-88 in the dataset are the Mean and Standard Deviation measures of linear acceleration(measured by accelerometer) and radial acceleration(measured by gyroscope)
+- XYZ is used to denote 3-axial signals in the X, Y and Z directions
+- Time domain signals all start with "time" prefix
+- Frequency domain signal variables all start with "frequency" prefix
+- Jerk signals from body linear acceleration and angular velocity derived in time are denoted by "jerk"
+- Mag from raw data has been expanded as "magnitude" and "acc" as "acceleration"
+- Mean and Standard Deviation variables have been aggregated subject-wise and activity-wise 
 
+### Below are the 88 features included in the final tidy data file "tidyaggHAR.txt" 
 	- (1)	subject
 	- (2)	activity
 	- (3)	timebodyaccelerationmeanx
