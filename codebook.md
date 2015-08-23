@@ -25,97 +25,97 @@ Below are the 88 features included in the final tidy data file "tidyaggHAR.txt" 
 - Attribute 2 Activity denote the different activities the subjects undertook namely WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 - Attributes 3-88 in this dataset are the Mean and Standard Deviation measures of linear acceleration(measured by accelerometer) and radial acceleration(measured by gyroscope)
 	- XYZ is used to denote 3-axial signals in the X, Y and Z directions
-	- Time domain signals all start with "Time." prefix
-	- Frequency domain signal variables all start with "Frequency." prefix
-	- Jerk signals from body linear acceleration and angular velocity derived in time are denoted by "Jerk."
-	- Mag from raw data has been expanded as "Magnitude." and "Acc" as "Acceleration."
-	- Mean and SD variables have been aggregated subject-wise and activity-wise 
+	- Time domain signals all start with "time" prefix
+	- Frequency domain signal variables all start with "frequency" prefix
+	- Jerk signals from body linear acceleration and angular velocity derived in time are denoted by "jerk"
+	- Mag from raw data has been expanded as "magnitude" and "acc" as "acceleration"
+	- Mean and Standard Deviation variables have been aggregated subject-wise and activity-wise 
 
-- (1) Subject
-- (2) Activity
-- (3) Time.Body.Acceleration.MeanX
-- (4) Time.Body.Acceleration.MeanY
-- (5) Time.Body.Acceleration.MeanZ
-- (6) Time.Body.Acceleration.SDX
-- (7) Time.Body.Acceleration.SDY
-- (8) Time.Body.Acceleration.SDZ
-- (9) Time.Gravity.Acceleration.MeanX
-- (10) Time.Gravity.Acceleration.MeanY
-- (11) Time.Gravity.Acceleration.MeanZ
-- (12) Time.Gravity.Acceleration.SDX
-- (13) Time.Gravity.Acceleration.SDY
-- (14) Time.Gravity.Acceleration.SDZ
-- (15) Time.Body.Acceleration.Jerk.MeanX
-- (16) Time.Body.Acceleration.Jerk.MeanY
-- (17) Time.Body.Acceleration.Jerk.MeanZ
-- (18) Time.Body.Acceleration.Jerk.SDX
-- (19) Time.Body.Acceleration.Jerk.SDY
-- (20) Time.Body.Acceleration.Jerk.SDZ
-- (21) Time.Body.Gyro.MeanX
-- (22) Time.Body.Gyro.MeanY
-- (23) Time.Body.Gyro.MeanZ
-- (24) Time.Body.Gyro.SDX
-- (25) Time.Body.Gyro.SDY
-- (26) Time.Body.Gyro.SDZ
-- (27) Time.Body.Gyro.Jerk.MeanX
-- (28) Time.Body.Gyro.Jerk.MeanY
-- (29) Time.Body.Gyro.Jerk.MeanZ
-- (30) Time.Body.Gyro.Jerk.SDX
-- (31) Time.Body.Gyro.Jerk.SDY
-- (32) Time.Body.Gyro.Jerk.SDZ
-- (33) Time.Body.Acceleration.Magnitude.Mean
-- (34) Time.Body.Acceleration.Magnitude.SD
-- (35) Time.Gravity.Acceleration.Magnitude.Mean
-- (36) Time.Gravity.Acceleration.Magnitude.SD
-- (37) Time.Body.Acceleration.Jerk.Magnitude.Mean
-- (38) Time.Body.Acceleration.Jerk.Magnitude.SD
-- (39) Time.Body.Gyro.Magnitude.Mean
-- (40) Time.Body.Gyro.Magnitude.SD
-- (41) Time.Body.Gyro.Jerk.Magnitude.Mean
-- (42) Time.Body.Gyro.Jerk.Magnitude.SD
-- (43) Frequency.Body.Acceleration.MeanX
-- (44) Frequency.Body.Acceleration.MeanY
-- (45) Frequency.Body.Acceleration.MeanZ
-- (46) Frequency.Body.Acceleration.SDX
-- (47) Frequency.Body.Acceleration.SDY
-- (48) Frequency.Body.Acceleration.SDZ
-- (49) Frequency.Body.Acceleration.MeanFreqX
-- (50) Frequency.Body.Acceleration.MeanFreqY
-- (51) Frequency.Body.Acceleration.MeanFreqZ
-- (52) Frequency.Body.Acceleration.Jerk.MeanX
-- (53) Frequency.Body.Acceleration.Jerk.MeanY
-- (54) Frequency.Body.Acceleration.Jerk.MeanZ
-- (55) Frequency.Body.Acceleration.Jerk.SDX
-- (56) Frequency.Body.Acceleration.Jerk.SDY
-- (57) Frequency.Body.Acceleration.Jerk.SDZ
-- (58) Frequency.Body.Acceleration.Jerk.MeanFreqX
-- (59) Frequency.Body.Acceleration.Jerk.MeanFreqY
-- (60) Frequency.Body.Acceleration.Jerk.MeanFreqZ
-- (61) Frequency.Body.Gyro.MeanX
-- (62) Frequency.Body.Gyro.MeanY
-- (63) Frequency.Body.Gyro.MeanZ
-- (64) Frequency.Body.Gyro.SDX
-- (65) Frequency.Body.Gyro.SDY
-- (66) Frequency.Body.Gyro.SDZ
-- (67) Frequency.Body.Gyro.MeanFreqX
-- (68) Frequency.Body.Gyro.MeanFreqY
-- (69) Frequency.Body.Gyro.MeanFreqZ
-- (70) Frequency.Body.Acceleration.Magnitude.Mean
-- (71) Frequency.Body.Acceleration.Magnitude.SD
-- (72) Frequency.Body.Acceleration.Magnitude.MeanFreq
-- (73) Frequency.Body.Acceleration.Jerk.Magnitude.Mean
-- (74) Frequency.Body.Acceleration.Jerk.Magnitude.SD
-- (75) Frequency.Body.Acceleration.Jerk.Magnitude.MeanFreq
-- (76) Frequency.Body.Gyro.Magnitude.Mean
-- (77) Frequency.Body.Gyro.Magnitude.SD
-- (78) Frequency.Body.Gyro.Magnitude.MeanFreq
-- (79) Frequency.Body.Gyro.Jerk.Magnitude.Mean
-- (80) Frequency.Body.Gyro.Jerk.Magnitude.SD
-- (81) Frequency.Body.Gyro.Jerk.Magnitude.MeanFreq
-- (82) Angle.Time.Body.Acceleration.MeanGravity.
-- (83) Angle.Time.Body.Acceleration.Jerk.MeanGravity.Mean
-- (84) Angle.Time.Body.Gyro.MeanGravity.Mean
-- (85) Angle.Time.Body.Gyro.Jerk.MeanGravity.Mean
-- (86) Ange.XGravity.Mean
-- (87) Angle.YGravity.Mean
-- (88) Angle.ZGravity.Mean
+	- (1)	subject
+	- (2)	activity
+	- (3)	timebodyaccelerationmeanx
+	- (4)	timebodyaccelerationmeany
+	- (5)	timebodyaccelerationmeanz
+	- (6)	timebodyaccelerationstandarddeviationx
+	- (7)	timebodyaccelerationstandarddeviationy
+	- (8)	timebodyaccelerationstandarddeviationz
+	- (9)	timegravityaccelerationmeanx
+	- (10)	timegravityaccelerationmeany
+	- (11)	timegravityaccelerationmeanz
+	- (12)	timegravityaccelerationstandarddeviationx
+	- (13)	timegravityaccelerationstandarddeviationy
+	- (14)	timegravityaccelerationstandarddeviationz
+	- (15)	timebodyaccelerationjerkmeanx
+	- (16)	timebodyaccelerationjerkmeany
+	- (17)	timebodyaccelerationjerkmeanz
+	- (18)	timebodyaccelerationjerkstandarddeviationx
+	- (19)	timebodyaccelerationjerkstandarddeviationy
+	- (20)	timebodyaccelerationjerkstandarddeviationz
+	- (21)	timebodygyroscopemeanx
+	- (22)	timebodygyroscopemeany
+	- (23)	timebodygyroscopemeanz
+	- (24)	timebodygyroscopestandarddeviationx
+	- (25)	timebodygyroscopestandarddeviationy
+	- (26)	timebodygyroscopestandarddeviationz
+	- (27)	timebodygyroscopejerkmeanx
+	- (28)	timebodygyroscopejerkmeany
+	- (29)	timebodygyroscopejerkmeanz
+	- (30)	timebodygyroscopejerkstandarddeviationx
+	- (31)	timebodygyroscopejerkstandarddeviationy
+	- (32)	timebodygyroscopejerkstandarddeviationz
+	- (33)	timebodyaccelerationmagnitudemean
+	- (34)	timebodyaccelerationmagnitudestandarddeviation
+	- (35)	timegravityaccelerationmagnitudemean
+	- (36)	timegravityaccelerationmagnitudestandarddeviation
+	- (37)	timebodyaccelerationjerkmagnitudemean
+	- (38)	timebodyaccelerationjerkmagnitudestandarddeviation
+	- (39)	timebodygyroscopemagnitudemean
+	- (40)	timebodygyroscopemagnitudestandarddeviation
+	- (41)	timebodygyroscopejerkmagnitudemean
+	- (42)	timebodygyroscopejerkmagnitudestandarddeviation
+	- (43)	frequencybodyaccelerationmeanx
+	- (44)	frequencybodyaccelerationmeany
+	- (45)	frequencybodyaccelerationmeanz
+	- (46)	frequencybodyaccelerationstandarddeviationx
+	- (47)	frequencybodyaccelerationstandarddeviationy
+	- (48)	frequencybodyaccelerationstandarddeviationz
+	- (49)	frequencybodyaccelerationmeanfrequencyx
+	- (50)	frequencybodyaccelerationmeanfrequencyy
+	- (51)	frequencybodyaccelerationmeanfrequencyz
+	- (52)	frequencybodyaccelerationjerkmeanx
+	- (53)	frequencybodyaccelerationjerkmeany
+	- (54)	frequencybodyaccelerationjerkmeanz
+	- (55)	frequencybodyaccelerationjerkstandarddeviationx
+	- (56)	frequencybodyaccelerationjerkstandarddeviationy
+	- (57)	frequencybodyaccelerationjerkstandarddeviationz
+	- (58)	frequencybodyaccelerationjerkmeanfrequencyx
+	- (59)	frequencybodyaccelerationjerkmeanfrequencyy
+	- (60)	frequencybodyaccelerationjerkmeanfrequencyz
+	- (61)	frequencybodygyroscopemeanx
+	- (62)	frequencybodygyroscopemeany
+	- (63)	frequencybodygyroscopemeanz
+	- (64)	frequencybodygyroscopestandarddeviationx
+	- (65)	frequencybodygyroscopestandarddeviationy
+	- (66)	frequencybodygyroscopestandarddeviationz
+	- (67)	frequencybodygyroscopemeanfrequencyx
+	- (68)	frequencybodygyroscopemeanfrequencyy
+	- (69)	frequencybodygyroscopemeanfrequencyz
+	- (70)	frequencybodyaccelerationmagnitudemean
+	- (71)	frequencybodyaccelerationmagnitudestandarddeviation
+	- (72)	frequencybodyaccelerationmagnitudemeanfrequency
+	- (73)	frequencybodyaccelerationjerkmagnitudemean
+	- (74)	frequencybodyaccelerationjerkmagnitudestandarddeviation
+	- (75)	frequencybodyaccelerationjerkmagnitudemeanfrequency
+	- (76)	frequencybodygyroscopemagnitudemean
+	- (77)	frequencybodygyroscopemagnitudestandarddeviation
+	- (78)	frequencybodygyroscopemagnitudemeanfrequency
+	- (79)	frequencybodygyroscopejerkmagnitudemean
+	- (80)	frequencybodygyroscopejerkmagnitudestandarddeviation
+	- (81)	frequencybodygyroscopejerkmagnitudemeanfrequency
+	- (82)	angletimebodyaccelerationmeangravity
+	- (83)	angletimebodyaccelerationjerkmeangravitymean
+	- (84)	angletimebodygyroscopemeangravitymean
+	- (85)	angletimebodygyroscopejerkmeangravitymean
+	- (86)	anglexgravitymean
+	- (87)	angleygravitymean
+	- (88)	anglezgravitymean
